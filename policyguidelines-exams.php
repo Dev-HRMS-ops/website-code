@@ -37,7 +37,7 @@
                     <tr>
                         <td class="fs-3">1</td>
                         <td class="fs-3">Composite SOP All Pak FGEIs Excellence Award</td>
-                        <td><a class="fs-4 text-decoration-none btn btn-outline-success btn-sm w-100" href="https://drive.google.com/file/d/1JeOYw4zHemhsqA8Yhp4kLBmCUuX-0S3_/view" target="_blank">Click Here</a></td>
+                        <td><a class="fs-4 text-decoration-none btn btn-outline-success btn-sm w-100" href="https://drive.google.com/file/d/1yv2IhwOPApROrk-nNBdGoFxqwGvDfFk7/view" target="_blank">Click Here</a></td>
                     </tr>
 
                     <tr>
