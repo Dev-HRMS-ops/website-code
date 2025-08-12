@@ -23,15 +23,6 @@
     =================================================== -->
     <?php require_once "testheader2.php" ?>
     
-    <!--<section>-->
-    <!--    <div class="container py-3">-->
-    <!--        <div class="row">-->
-    <!--            <h2 class="text-center fw-bold fs-1 section-heading">DG Visits</h2>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</section>-->
-    
-
     <!-- image gallery -->
 
     <section class="py-5">
@@ -62,7 +53,6 @@
                         </div>';
                     }
                     ?>
-
             </div>
         </div>
     </section>    
