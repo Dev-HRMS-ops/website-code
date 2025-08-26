@@ -41,7 +41,7 @@
                     <div class="row justify-content-center mb-2">
                         <img src="images/sa-wing/directorsa.jpg" class="rounded-circle dgimg img-fluid" />
                     </div>
-                    <h4>Brig Shahid Yaqub Abbasi</h4>
+                    <h4>Brig Dr. Shahid Yaqub Abbasi</h4>
                     <h5>Director (School Affairs Wing)</h5>
                 </div>
 
