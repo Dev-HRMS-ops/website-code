@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/fgeiwsstyle.css">
-               <title>Federal Government Educational Institutions</title>
 </head>
 
 <body>
@@ -133,17 +132,18 @@
                                         </li>
 
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle text-capitalize fs-5" id="navbarDropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                HR Corner
-                                            </a>
-                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
-                                                <li><a class="dropdown-item text-capitalize fs-5" href="nts.php">Non Teaching Staff</a></li>
-                                                <li><a class="dropdown-item text-capitalize fs-5" href="cmmgmt.php">HR Management</a></li>
-                                                <li><a class="dropdown-item text-capitalize fs-5" href="legal.php">Legal</a></li>
-                                                <li><a class="dropdown-item text-capitalize fs-5" href="jobs.php" target="_blank">Career Opportunities</a></li>
-                                                <!-- <li><a class="dropdown-item text-capitalize fs-5" href="downloads.php">Downloads</a></li> -->
-                                            </ul>
-                                        </li>
+                                                <a class="nav-link dropdown-toggle text-capitalize fs-5" id="navbarDropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    HR Corner
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                                                    <li><a class="dropdown-item text-capitalize fs-5" href="nts.php">Non Teaching Staff</a></li>
+                                                    <li><a class="dropdown-item text-capitalize fs-5" href="cmmgmt.php">HR Management</a></li>
+                                                    <li><a class="dropdown-item text-capitalize fs-5" href="legal.php">Legal</a></li>
+                                                    <!-- <li><a class="dropdown-item text-capitalize fs-5" href="downloads.php">Downloads</a></li> -->
+                                                </ul>
+                                            </li>
+
+                                            <li class="nav-item"><a class="fs-5 text-capitalize nav-link" href="jobs.php" target="_blank">Career Opportunities</a></li>
 
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle text-capitalize fs-5" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">

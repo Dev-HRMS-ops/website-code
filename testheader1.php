@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Federal Government Educational Institutions (C/G), also known as FGEI-(C/G). Explore educational programs, initiatives, and information about our institutions.">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
@@ -11,8 +12,6 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="css/fgeiwsstyle.css">
-    <title>Federal Government Educational Institutions</title>
-    <meta name="description" content="Welcome to Federal Government Educational Institutions (C/G), also known as FGEI-(C/G). Explore educational programs, initiatives, and information about our institutions.">
 </head>
 
 <body id="header">
@@ -148,10 +147,11 @@
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="nts.php">Non Teaching Staff</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="cmmgmt.php">HR Management</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="legal.php">Legal</a></li>
-                                                    <li><a class="dropdown-item text-capitalize fs-5" href="jobs.php" target="_blank">Career Opportunities</a></li>
                                                     <!-- <li><a class="dropdown-item text-capitalize fs-5" href="downloads.php">Downloads</a></li> -->
                                                 </ul>
                                             </li>
+
+                                            <li class="nav-item"><a class="fs-5 text-capitalize nav-link" href="jobs.php" target="_blank">Career Opportunities</a></li>
 
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle text-capitalize fs-5" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">

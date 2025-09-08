@@ -153,30 +153,23 @@ $UserCounts = $userCountsStmt->fetch(PDO::FETCH_ASSOC);
     <section class="bg-clrd-sec">
         <div class="container-fluid text-dark p-5">
             <div class="row align-items-center gx-5">
-                <div class="col-md-3 align-self-center text-center border border-dark">
-
-                    <h3 class="video-block">Latest News</h3>
-
-                    <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="4" direction="up" height='360'>
-                        <ul class="widget-timeline mb-0">
-                            <?php
-                            foreach ($News as $nw) {
-                            ?>
-                                <li class="timeline-items timeline-icon-primary">
-                                    <h5 style="color: #FF9600;">
+                <div class="col-md-3 align-self-center text-center border border-dark pe-0">
+                    <div class="pe-3 overflow-auto" style="max-height: 360px;">
+                        <h3 class="video-block">Latest News</h3>
+                        
+                        <ul class="widget-timeline pb-3 list-unstyled text-start">
+                            <?php foreach ($News as $nw) { ?>
+                                <li class="timeline-items timeline-icon-primary mb-3">
+                                    <h5 class="mb-1" style="color: #FF9600;">
                                         <?= $nw["NewsTitle"] ?>
                                     </h5>
                                     <div>
-                                        <h6> <?= $nw['NewsDescription'] ?> </h6>
+                                        <h6 class="mb-0"><?= $nw['NewsDescription'] ?></h6>
                                     </div>
-                                </li><br>
-                            <?php
-                            }
-                            ?><br>
-                        </ul>
-                    </marquee>
-
-
+                                </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
                 </div>
 
                 <div class="col-md-6">

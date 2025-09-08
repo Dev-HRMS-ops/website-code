@@ -29,7 +29,7 @@
 
     <div class="header-banner">
 
-          <div id="mainNav" class="sticky-top">
+        <div id="mainNav" class="sticky-top">
             <!-- First Row: Navbar with seven items -->
             <div class="topbar container-fluid">
                 <div class="row align-items-center">
@@ -158,10 +158,10 @@
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="nts.php">Non Teaching Staff</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="cmmgmt.php">HR Management</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="legal.php">Legal</a></li>
-                                                    <li><a class="dropdown-item text-capitalize fs-5" href="jobs.php" target="_blank">Career Opportunities</a></li>
                                                     <!-- <li><a class="dropdown-item text-capitalize fs-5" href="downloads.php">Downloads</a></li> -->
                                                 </ul>
                                             </li>
+                                            <li class="nav-item"><a class="fs-5 text-capitalize nav-link" href="jobs.php" target="_blank">Career Opportunities</a></li>
 
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle text-capitalize fs-5" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -266,7 +266,21 @@
                     <div class="job-glass-card p-4 shadow-lg">
                         <h2 class="text-white mb-4 fw-bold"><i class="bi bi-journal-text me-2"></i>Current Job Openings</h2>
 
+
                         <div class="job-listing mb-3 p-3 rounded-4">
+                            <h5 class="text-white mb-1">Vacancies for Teaching and Non-Teaching Staff</h5>
+                            <p class="text-white-50 mb-2">On Permanent basis</p>
+                            <p class="pt-3">Applications are invited from Pakistani nationals for permanent posts of teaching and non-teaching staff in Federal Government Educational Institutions (Cantonments/Garrisons). Eligible candidates who fulfill the required qualifications, age, and quota criteria may apply according to the given instructions.
+                            </p>
+                            <!-- <p>Interview Call up letters to shortlisted candidates issued.</p> -->
+                            <a href="https://drive.google.com/file/d/1-3-P8F-udI2zcDxf7nByFiMY6_2QAklr/view" target="_blank" class="btn btn-outline-light rounded-pill px-4">Advertisement</a>
+                            <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-light rounded-pill px-4"><i class="bi bi-box-arrow-in-right me-2"></i>Apply Here</a>
+                            <!-- <a href="interview.php" class="btn btn-outline-light rounded-pill px-4">Interview Schedule</a> -->
+
+                            <!-- <p class="badge apply-glass-btn fs-6 text-wrap">The test is scheduled to be held on 1st June 2025.</p> -->
+                        </div>
+
+                        <!-- <div class="job-listing mb-3 p-3 rounded-4">
                             <h5 class="text-white mb-1">Contract Employment of SSTs/TGTs</h5>
                             <p class="text-white-50 mb-2">On Contract basis</p>
                             <p class="pt-3">The Result has been announced please visit induction portal.</p>
@@ -275,8 +289,9 @@
                             <a href="https://induction2025.fgei.gov.pk/" target="_blank" class="btn btn-outline-light rounded-pill px-4"><i class="bi bi-box-arrow-in-right me-2"></i>Check Result</a>
                             <a href="interview.php" class="btn btn-outline-light rounded-pill px-4">Interview Schedule</a>
 
-                            <!-- <p class="badge apply-glass-btn fs-6 text-wrap">The test is scheduled to be held on 1st June 2025.</p> -->
-                        </div>
+                            <p class="badge apply-glass-btn fs-6 text-wrap">The test is scheduled to be held on 1st June 2025.</p>
+                        </div> -->
+
                     </div>
                 </div>
             </div>
@@ -289,23 +304,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const container = document.getElementById("job-section-container");
-            const nav = document.getElementById("mainNav"); // your navbar ID
-
-            function adjustHeight() {
-                if (container && nav) {
-                    const navHeight = nav.offsetHeight;
-                    container.style.height = `calc(100vh - ${navHeight}px)`;
-                }
-            }
-
-            adjustHeight();
-            window.addEventListener("resize", adjustHeight);
-        });
-    </script> -->
 
 
 </body>
