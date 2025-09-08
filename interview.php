@@ -44,14 +44,10 @@
 
                                 <tr>
                                     <td>1</td>
-                                    <th>Rwp</th>
-                                    <td>4 - 15 Aug 25</td>
+                                    <th>Quetta</th>
+                                    <td>01 - 02 September 25</td>
                                 </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <th>Mtn</th>
-                                    <td>18-22 Aug 25</td>
-                                </tr>
+                                
                             </tbody>
                         </table>
 

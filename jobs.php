@@ -29,7 +29,7 @@
 
     <div class="header-banner">
 
-        <div id="mainNav" class="">
+          <div id="mainNav" class="sticky-top">
             <!-- First Row: Navbar with seven items -->
             <div class="topbar container-fluid">
                 <div class="row align-items-center">
@@ -57,15 +57,13 @@
                                         <li class="nav-item">
                                             <a class="nav-link text-uppercase border-end" href="https://hrms.fgei.gov.pk/" target="_blank">HRMS Portal</a>
                                         </li>
-                                        <!-- <li class="nav-item">
-                                            <a class="nav-link text-uppercase border-end" href="priprimary1.php">Pre Primary</a>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase border-end" href="https://sis.fgei.gov.pk/" target="_blank">SIS Portal</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-uppercase border-end" href="spec.php">Special Education</a>
+                                            <a class="nav-link text-uppercase border-end" href="https://sms.fgei.gov.pk/" target="_blank">SMS Portal</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-uppercase border-end" href="dr-zohra-training-center.php">ZIED</a>
-                                        </li> -->
+
                                         <li class="nav-item">
                                             <!-- <a class="nav-link text-uppercase border-end" href="eoffice.php">E-office</a> -->
                                             <a class="nav-link text-uppercase border-end" href='https://fgei.gov.pk/eoffice' target="_blank">E-office</a>
@@ -160,7 +158,7 @@
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="nts.php">Non Teaching Staff</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="cmmgmt.php">HR Management</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="legal.php">Legal</a></li>
-                                                    <li><a class="dropdown-item text-capitalize fs-5" href="https://induction.fgei.gov.pk/" target="_blank">Career Opportunities</a></li>
+                                                    <li><a class="dropdown-item text-capitalize fs-5" href="jobs.php" target="_blank">Career Opportunities</a></li>
                                                     <!-- <li><a class="dropdown-item text-capitalize fs-5" href="downloads.php">Downloads</a></li> -->
                                                 </ul>
                                             </li>
@@ -175,7 +173,7 @@
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="eoffice.php">E-Office</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="priprimary1.php">Pre Primary</a></li>
                                                     <li><a class="dropdown-item text-capitalize fs-5" href="spec.php">Special Education Cell (SEC)</a></li>
-                                                    <li><a class="dropdown-item text-capitalize fs-5" href="dr-zohra-training-center.php">Zohra Institute of Education Development (ZIED)</a></li>
+                                                    <!-- <li><a class="dropdown-item text-capitalize fs-5" href="dr-zohra-training-center.php">Zohra Institute of Education Development (ZIED)</a></li> -->
                                                     <!-- <li><a class="dropdown-item text-capitalize fs-5" href="#">Jinnah Institute of Inclusive Education (JIIE)</a></li> -->
 
                                                     <!-- <li><a class="dropdown-item text-capitalize fs-5" href="#">Community Service</a></li> -->
@@ -185,7 +183,9 @@
 
                                                 </ul>
                                             </li>
-
+                                            <li class="nav-item">
+                                                <a class="nav-link fs-5" href="dr-zohra-training-center.php">ZIED</a>
+                                            </li>
                                             <li class="nav-item dropdown">
                                                 <a class="nav-link dropdown-toggle text-capitalize fs-5" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Academics
