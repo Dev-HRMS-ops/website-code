@@ -42,6 +42,13 @@
                 <h2 class="text-center mb-4 fs-1 fw-bold">Development Projects at FGEIs</h2>
                 <div class="col-md-6">
                     <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/kKRzbIOTTk8?si=tIx6xXqhgkQ0l6tM"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/dQptbAH6A_E?si=gU11KlRifCkkiEM2"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -89,10 +96,10 @@
 
 
     <!-- video gallery local -->
-    <section class="py-5">
+    <!-- <section class="py-5">
         <div class="container">
             <div class="row justify-content-center gy-3">
-                <!-- <h2 class="text-center mb-3 fs-1 fw-bold">Highlights</h2> -->
+                <h2 class="text-center mb-3 fs-1 fw-bold">Highlights</h2>
                 <div class="col-md-4">
                     <div class="ratio ratio-16x9">
                         <video loop muted controls>
@@ -119,17 +126,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- video gallery youtube-->
 
-<?php
-// Load video IDs from the text file
-$videoIDs = file('videos.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-?>
+    <?php
+    // Load video IDs from the text file
+    $videoIDs = file('videos.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    ?>
 
-<!-- Video gallery -->
+    <!-- Video gallery -->
     <section class="py-5">
         <div class="container">
             <div class="row justify-content-center gy-3">
@@ -137,9 +144,9 @@ $videoIDs = file('videos.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
                     <div class="col-md-4">
                         <div class="ratio ratio-16x9">
                             <iframe src="https://www.youtube.com/embed/<?= htmlspecialchars($videoID) ?>?si=dynamic"
-                                    title="YouTube video player" frameborder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                                    allowfullscreen></iframe>
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -150,7 +157,7 @@ $videoIDs = file('videos.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     <!--<section class="py-5">-->
     <!--    <div class="container">-->
     <!--        <div class="row justify-content-center gy-3">-->
-                <!-- <h2 class="text-center mb-3 fs-1 fw-bold">Video Gallery</h2> -->
+    <!-- <h2 class="text-center mb-3 fs-1 fw-bold">Video Gallery</h2> -->
     <!--            <div class="col-md-4">-->
     <!--                <div class="ratio ratio-16x9">-->
     <!--                    <iframe src="https://www.youtube.com/embed/W_3vcuYYuCs?si=4cxFuHigmVanMK3n"-->
@@ -269,7 +276,7 @@ $videoIDs = file('videos.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     <!--                        allowfullscreen></iframe>-->
     <!--                </div>-->
     <!--            </div>-->
-                
+
     <!--            <div class="col-md-4">-->
     <!--                <div class="ratio ratio-16x9">-->
     <!--                    <iframe src="https://www.youtube.com/embed/eR7o14vFVGI?si=pkfnpFv3e5n5r65s"-->

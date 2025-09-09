@@ -40,6 +40,24 @@ $userCountsStmt->execute([':id' => 1]);
 $UserCounts = $userCountsStmt->fetch(PDO::FETCH_ASSOC);
 
 // Now $initiatives, $News, $achievements (arrays) and $UserCounts (single row) are ready to use
+
+// Fetch all school categories only (for dynamic Schools tab)
+$stmt = $pdo->prepare("
+    SELECT id, name
+    FROM school_categories
+    WHERE is_for_school = 1
+");
+$stmt->execute();
+$schoolCategories = $stmt->fetchAll();
+
+// Fetch all college categories only (for dynamic Colleges tab)
+$stmt = $pdo->prepare("
+    SELECT id, name
+    FROM school_categories
+    WHERE is_for_college = 1
+");
+$stmt->execute();
+$collegeCategories = $stmt->fetchAll();
 ?>
 
 
@@ -253,21 +271,29 @@ $UserCounts = $userCountsStmt->fetch(PDO::FETCH_ASSOC);
                             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
                                 <!-- <h2 class="text-center my-3 fw-bold display-4">Schools</h2> -->
                                 <div class="row">
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="priprimary.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Pre Primary Schools</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="primary.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Primary Schools (I–V)</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="middle2.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Middle Schools (I–VIII)</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="middle.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Middle Schools (VI–VIII)</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="high2.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">High Schools (I–X)</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="high1.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">High Schools (VI–X)</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="high3.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Higher Secondary Schools (I–XII)</a></div>
+                                    
+                                    <!-- Category Tiles -->
+                                    <?php foreach ($schoolCategories as $cat): ?>
+                                        <div class="col-md-4 mb-3 d-flex align-content-stretch">
+                                            <a href="category.php?type=schools&cat_id=<?= urlencode($cat['id']) ?>" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium" aria-label="View <?= htmlspecialchars($cat['name']) ?> schools">
+                                                <?= htmlspecialchars($cat['name']) ?>
+                                            </a>
+                                        </div>
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
                                 <!-- <h2 class="text-center my-3 fw-bold display-4">Colleges</h2> -->
                                 <div class="row">
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="intermediate.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Intermediate Colleges</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="bachelors.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Degree Colleges</a></div>
-                                    <div class="col-md-4 mb-3 d-flex align-content-stretch"><a href="masters.php" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium">Post Graduate Colleges</a></div>
+                                    
+                                    <!-- Category Tiles -->
+                                    <?php foreach ($collegeCategories as $cat): ?>
+                                        <div class="col-md-4 mb-3 d-flex align-content-stretch">
+                                            <a href="category.php?type=colleges&cat_id=<?= urlencode($cat['id']) ?>" class="btn btn-institute px-2 py-3 fs-4 text-wrap fw-medium" aria-label="View <?= htmlspecialchars($cat['name']) ?> colleges">
+                                                <?= htmlspecialchars($cat['name']) ?>
+                                            </a>
+                                        </div>
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
 
@@ -598,25 +624,26 @@ $UserCounts = $userCountsStmt->fetch(PDO::FETCH_ASSOC);
     </section>
 
     <!-- Modal -->
-    <!-- <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content shadow rounded">
                 <div class="modal-header bg-primary text-white rounded-top">
-                    <h5 class="modal-title" id="modalTitle">Contract Employment of SSTs/TGTs</h5>
+                    <h5 class="modal-title" id="modalTitle">Vacancies Announced in FGEI (C/G) for Teaching and Non-Teaching Staff</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="pt-3">The Result has been announced please visit induction portal.</p>
-                    <p>Interview Call up letters to shortlisted candidates issued.</p>
-                    <a href="https://induction2025.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4"><i class="bi bi-box-arrow-in-right me-2"></i>Check Result</a>
-                    <a href="interview.php" class="btn btn-outline-primary rounded-pill px-4">Interview Schedule</a>
+                    <p class="pt-3">Applications are invited from Pakistani nationals for permanent posts of teaching and non-teaching staff in Federal Government Educational Institutions (Cantonments/Garrisons). Eligible candidates who fulfill the required qualifications, age, and quota criteria may apply according to the given instructions.</p>
+                    <!-- <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4"><i class="bi bi-box-arrow-in-right me-2"></i>Check Result</a> -->
+                    <a href="https://drive.google.com/file/d/1-3-P8F-udI2zcDxf7nByFiMY6_2QAklr/view" target="_blank" class="btn btn-outline-success rounded-pill px-4">Advertisement</a>
+                    <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4">Apply Here</a>
+                    <!-- <a href="interview.php" class="btn btn-outline-primary rounded-pill px-4">Interview Schedule</a> -->
                 </div>
                 <div class="modal-footer bg-light rounded-bottom">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- News Modal -->
     <div class="modal fade" id="admissionModal" tabindex="-1" aria-labelledby="admissionModalLabel" aria-hidden="true">

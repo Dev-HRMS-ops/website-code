@@ -30,7 +30,10 @@
         <div class="container py-3">
             <div class="row">
                 <!-- Image List -->
-                 <div class="col-12 mb-3">
+                <div class="col-12 mb-3">
+                    <img src="images/achievements/faizansquashu-15.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 mb-3">
                     <img src="images/achievements/m-rafay.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-12 mb-3">
