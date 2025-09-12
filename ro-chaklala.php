@@ -87,7 +87,21 @@
         </div>
     </section>    
 
-
+<!-- video gallery -->
+    <section class="bg-clrd-sec py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h2 class="text-center mb-4 fs-1 fw-bold">Development Projects at Chaklala Region</h2>
+                <div class="col col-md-8">
+                    <div class="ratio ratio-16x9">
+                         <iframe src="https://www.youtube.com/embed/LlNdqyfcS3g?si=3S30uYckL_oVYsgI"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>

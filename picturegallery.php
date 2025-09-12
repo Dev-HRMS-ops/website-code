@@ -57,7 +57,7 @@
                     <a href="pictureptm.php" class="text-decoration-none">
                         <div class="card h-100 p-3">
                             <div class="card-image">
-                                <img src="images/ptm.gif" alt="" class="card-img-top pb-2 border border-0 border-bottom border-dark-subtle custom-ratio">
+                                <img src="images/ptm.png" alt="" class="card-img-top pb-2 border border-0 border-bottom border-dark-subtle custom-ratio">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Parent Teacher Meeting (PTM)</h5>

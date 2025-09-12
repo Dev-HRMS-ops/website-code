@@ -633,6 +633,7 @@ $collegeCategories = $stmt->fetchAll();
                 </div>
                 <div class="modal-body">
                     <p class="pt-3">Applications are invited from Pakistani nationals for permanent posts of teaching and non-teaching staff in Federal Government Educational Institutions (Cantonments/Garrisons). Eligible candidates who fulfill the required qualifications, age, and quota criteria may apply according to the given instructions.</p>
+                    <p class="pt-3 fw-bold fs-6">Last date to apply is: 23 SEPTEMBER 2025</p>
                     <!-- <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4"><i class="bi bi-box-arrow-in-right me-2"></i>Check Result</a> -->
                     <a href="https://drive.google.com/file/d/1-3-P8F-udI2zcDxf7nByFiMY6_2QAklr/view" target="_blank" class="btn btn-outline-success rounded-pill px-4">Advertisement</a>
                     <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4">Apply Here</a>
