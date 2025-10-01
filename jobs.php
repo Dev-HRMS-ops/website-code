@@ -272,18 +272,16 @@
                             <p class="text-white-50 mb-2">On Permanent basis</p>
 
                             <ul>
-                                <li class="pt-3 fs-6">The submission of online applications has been <strong>closed</strong>.</li>
-                                <li class="pt-3 fs-6">Candidates may check their application status <a class="text-white" href="https://induction.fgei.gov.pk/login.php" target="_blank">here.</a></li>
-                                <li>Tentative test dates: 11–12 October 2025.</li>
-                                <li>Roll number slips of approved candidates will be uploaded on 06 October 2025 (tentatively).</li>
-                                <li>Candidates are required to take a printout of their roll number slip.</li>
-                                <li>Bring the printed roll number slip along with the original CNIC at the test venue.</li>
+                                <li>Roll number slips have been uploaded on the induction portal.</li>
+                                <li>Candidates are required to download and take a printout of their roll number slip.</li>
+                                <li>It is mandatory to b ring the printed <strong>roll number slip</strong> along with the <strong>original</strong> CNIC at the test venue.</li>
                             </ul>
 
 
                             <!-- <p>Interview Call up letters to shortlisted candidates issued.</p> -->
                             <!-- <a href="https://drive.google.com/file/d/1-3-P8F-udI2zcDxf7nByFiMY6_2QAklr/view" target="_blank" class="btn btn-outline-light rounded-pill px-4">Advertisement</a> -->
                             <a href="https://drive.google.com/file/d/18biJjaU3huDrotJVh4I1e09BptNZDcGB/view" target="_blank" class="btn btn-outline-light rounded-pill px-4">Test Schedule</a>
+                            <a href="https://induction.fgei.gov.pk/slips.php" target="_blank" class="btn btn-outline-light rounded-pill px-4">Download Roll No Slip</a>
                             <!-- <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-light rounded-pill px-4"><i class="bi bi-box-arrow-in-right me-2"></i>Apply Here</a> -->
                             <!-- <a href="interview.php" class="btn btn-outline-light rounded-pill px-4">Interview Schedule</a> -->
                             <!-- <p class="badge apply-glass-btn fs-6 text-wrap">The test is scheduled to be held on 1st June 2025.</p> -->
