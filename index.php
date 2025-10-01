@@ -174,7 +174,7 @@ $collegeCategories = $stmt->fetchAll();
                 <div class="col-md-3 align-self-center text-center border border-dark pe-0">
                     <div class="pe-3 overflow-auto" style="max-height: 360px;">
                         <h3 class="video-block">Latest News</h3>
-                        
+
                         <ul class="widget-timeline pb-3 list-unstyled text-start">
                             <?php foreach ($News as $nw) { ?>
                                 <li class="timeline-items timeline-icon-primary mb-3">
@@ -185,9 +185,9 @@ $collegeCategories = $stmt->fetchAll();
                                         <h6 class="mb-0"><?= $nw['NewsDescription'] ?></h6>
                                     </div>
                                 </li>
-                                <?php } ?>
-                            </ul>
-                        </div>
+                            <?php } ?>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="col-md-6">
@@ -271,7 +271,7 @@ $collegeCategories = $stmt->fetchAll();
                             <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
                                 <!-- <h2 class="text-center my-3 fw-bold display-4">Schools</h2> -->
                                 <div class="row">
-                                    
+
                                     <!-- Category Tiles -->
                                     <?php foreach ($schoolCategories as $cat): ?>
                                         <div class="col-md-4 mb-3 d-flex align-content-stretch">
@@ -285,7 +285,7 @@ $collegeCategories = $stmt->fetchAll();
                             <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
                                 <!-- <h2 class="text-center my-3 fw-bold display-4">Colleges</h2> -->
                                 <div class="row">
-                                    
+
                                     <!-- Category Tiles -->
                                     <?php foreach ($collegeCategories as $cat): ?>
                                         <div class="col-md-4 mb-3 d-flex align-content-stretch">
@@ -628,15 +628,23 @@ $collegeCategories = $stmt->fetchAll();
         <div class="modal-dialog">
             <div class="modal-content shadow rounded">
                 <div class="modal-header bg-primary text-white rounded-top">
-                    <h5 class="modal-title" id="modalTitle">Vacancies Announced in FGEI (C/G) for Teaching and Non-Teaching Staff</h5>
+                    <h5 class="modal-title" id="modalTitle">Important Notice for Candidates</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p class="pt-3">Applications are invited from Pakistani nationals for permanent posts of teaching and non-teaching staff in Federal Government Educational Institutions (Cantonments/Garrisons). Eligible candidates who fulfill the required qualifications, age, and quota criteria may apply according to the given instructions.</p>
-                    <p class="pt-3 fw-bold fs-6">Last date to apply is: 23 SEPTEMBER 2025</p>
+                    <ul>
+                        <li class="pt-3 fs-6">The submission of online applications has been <strong>closed</strong>.</li>
+                        <li class="pt-3 fs-6">Candidates may check their application status <a href="https://induction.fgei.gov.pk/login.php" target="_blank">here.</a></li>
+                        <li>Tentative test dates: 11–12 October 2025.</li>
+                        <li>Roll number slips of approved candidates will be uploaded on 06 October 2025 (tentatively).</li>
+                        <li>Candidates are required to take a printout of their roll number slip.</li>
+                        <li>Bring the printed roll number slip along with the original CNIC at the test venue.</li>
+                    </ul>
+
                     <!-- <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4"><i class="bi bi-box-arrow-in-right me-2"></i>Check Result</a> -->
-                    <a href="https://drive.google.com/file/d/1-3-P8F-udI2zcDxf7nByFiMY6_2QAklr/view" target="_blank" class="btn btn-outline-success rounded-pill px-4">Advertisement</a>
-                    <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4">Apply Here</a>
+                    <!-- <a href="https://drive.google.com/file/d/1-3-P8F-udI2zcDxf7nByFiMY6_2QAklr/view" target="_blank" class="btn btn-outline-success rounded-pill px-4">Advertisement</a> -->
+                    <a href="https://drive.google.com/file/d/18biJjaU3huDrotJVh4I1e09BptNZDcGB/view" target="_blank" class="btn btn-outline-success rounded-pill px-4">Test Schedule</a>
+                    <!-- <a href="https://induction.fgei.gov.pk/" target="_blank" class="btn btn-outline-primary rounded-pill px-4">Apply Here</a> -->
                     <!-- <a href="interview.php" class="btn btn-outline-primary rounded-pill px-4">Interview Schedule</a> -->
                 </div>
                 <div class="modal-footer bg-light rounded-bottom">

@@ -31,37 +31,43 @@
             <div class="row">
                 <!-- Image List -->
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/faizansquashu-15.jpg" class="img-fluid" alt="">
+                    <img src="images/achievements/irtiqa-rasheed.jpg" class="img-fluid w-100" alt="">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/m-rafay.jpg" class="img-fluid" alt="">
+                    <img src="images/achievements/irtiqa-rasheed.jpg" class="img-fluid w-100" alt="">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/sikandar.jpg" class="img-fluid" alt="">
+                    <img src="images/achievements/faizansquashu-15.jpg" class="img-fluid w-100" alt="">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/abdulwahab.jpg" class="img-fluid" alt="">
+                    <img src="images/achievements/m-rafay.jpg" class="img-fluid w-100" alt="">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/talha-tennis.jpg" class="img-fluid" alt="">
+                    <img src="images/achievements/sikandar.jpg" class="img-fluid w-100" alt="">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/azan-khan.jpg" class="img-fluid" alt="AzanKhan">
+                    <img src="images/achievements/abdulwahab.jpg" class="img-fluid w-100" alt="">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/badminton-first.jpg" class="img-fluid" alt="BadmintonFirst">
+                    <img src="images/achievements/talha-tennis.jpg" class="img-fluid w-100" alt="">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/abubkr.jpg" class="img-fluid" alt="Abubkr">
+                    <img src="images/achievements/azan-khan.jpg" class="img-fluid w-100" alt="AzanKhan">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/highach.jpg" class="img-fluid" alt="HighAchievement">
+                    <img src="images/achievements/badminton-first.jpg" class="img-fluid w-100" alt="BadmintonFirst">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/achi2.png" class="img-fluid" alt="Achievement2">
+                    <img src="images/achievements/abubkr.jpg" class="img-fluid w-100" alt="Abubkr">
                 </div>
                 <div class="col-12 mb-3">
-                    <img src="images/achievements/achi3.png" class="img-fluid" alt="Achievement3">
+                    <img src="images/achievements/highach.jpg" class="img-fluid w-100" alt="HighAchievement">
+                </div>
+                <div class="col-12 mb-3">
+                    <img src="images/achievements/achi2.png" class="img-fluid w-100" alt="Achievement2">
+                </div>
+                <div class="col-12 mb-3">
+                    <img src="images/achievements/achi3.png" class="img-fluid w-100" alt="Achievement3">
                 </div>
             </div>
         </div>
